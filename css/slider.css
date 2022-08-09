@@ -1,0 +1,98 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.container{
+    text-align: center;
+    margin:  10px 20px;
+height: 100vh;
+
+
+}
+.container .testimonial-mf{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container .testimonial-box{
+    background-color: rgb(221, 250, 229);
+    border-radius: 30px 30px 0px 0px;
+
+}
+.container .content-test{
+  padding: 20px 20px ;
+  padding-bottom: 60px;
+}
+.container .testimonial-box img.rounded-circle {
+  border-radius: 30px 30px 0px 0px;
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+
+}
+
+.container .testimonial-box  span.author{
+  margin-top: 10px;
+}
+.container .testimonial-box .btn button{
+
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  padding: 10px 40px ;
+  margin-top: 40px;
+  
+}
+
+
+
+  
+  /*------/ Owl Carousel /------*/
+  
+  .owl-theme .owl-dots {
+    text-align: center;
+    margin-top: 18px;
+  }
+  
+  .owl-theme .owl-dots .owl-dot {
+    display: inline-block;
+  }
+  
+  .owl-theme .owl-dots .owl-dot span {
+    width: 18px;
+    height: 7px;
+    margin: 5px 5px;
+    background: #cde1f8;
+    border: 0px solid #cde1f8;
+    display: block;
+    transition: all 0.6s ease-in-out;
+    cursor: pointer;
+  }
+  
+  .owl-theme .owl-dots .owl-dot:hover span {
+    background-color: #cde1f8;
+  }
+  
+  .owl-theme .owl-dots .owl-dot.active span {
+    background-color: #1B1B1B;
+    width: 25px;
+  }
+.font-size{
+font-weight: bold;
+font-size: 20px;
+}
+.btn .button-three{
+  background-image: linear-gradient(rgb(164, 226, 164) , lightgreen);
+
+}
+.btn .button{
+background-color: transparent;
+color: rgb(110, 233, 110);
+font-weight: bold;
+}
