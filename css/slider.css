@@ -54,7 +54,6 @@ height: 100vh;
 
   
   /*------/ Owl Carousel /------*/
-  
   .owl-theme .owl-dots {
     text-align: center;
     margin-top: 18px;
@@ -83,6 +82,43 @@ height: 100vh;
     background-color: #1B1B1B;
     width: 25px;
   }
+
+  /* -------------Owl Nav for Next and Prev */
+  .owl-theme .owl-nav{
+	  position: relative;
+	 
+	
+  }
+  .owl-theme .owl-nav button.owl-prev{
+    position: absolute;
+    left: 10px;
+    bottom: 300px;
+
+  }
+  .owl-theme .owl-nav button.owl-next{
+    position: absolute;
+    right: 10px;
+    bottom: 300px;
+  }
+
+  .owl-theme .owl-nav button.owl-prev, .owl-theme .owl-nav button.owl-next {
+    background-color: transparent !important;
+    padding: 3px 15px !important;
+    border: 1px solid #f59e0b;
+    color: #f59e0b;
+    font-size: 30px;
+  
+  }
+   .owl-theme .owl-nav button.owl-prev:hover, .owl-theme .owl-nav button.owl-next:hover {
+    background-color: #FFEFD6 !important;
+   }
+    .owl-theme .owl-nav .owl-prev i,
+    .owl-theme .owl-nav .owl-next i{
+     color: #f59e0b;
+    }
+  
+  
+ 
 .font-size{
 font-weight: bold;
 font-size: 20px;
